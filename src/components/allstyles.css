@@ -1,0 +1,45 @@
+header {
+  background-color: #ebfa19a9;
+  font-size: 50px;
+  font-style: italic;
+  font-family: "Segoe Script";
+  /* display: flex;
+  align-items: center;
+
+  justify-content: space-between; */
+  padding: 0px;
+
+  /* overflow: hidden; */
+  /* font-family: Papyrus, fantasy; */
+}
+.weblogo {
+  /* text-align: start; */
+  /* margin: 10px; */
+  text-align: start;
+  padding-top: 19px;
+}
+.weblogo img {
+  width: 100px;
+  height: auto;
+}
+nav {
+  padding: 10px;
+  text-align: center;
+  background-color: darkgoldenrod;
+}
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+li {
+  display: inline-flex;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 50px;
+  font-size: 18px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+li:hover {
+  text-shadow: 0 0 3px #e5ff00;
+}
