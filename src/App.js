@@ -1,31 +1,43 @@
+import React from "react";
 import "./App.css";
+
 import logo from "./logo.svg";
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
-//   BrowserRouter,
-// } from "react-router-dom";
 import MainPage from "./components/MainPage.js";
 import Navbar from "./components/NavBar.js";
-import Gallery from "./components/Gallery.js";
+import Gallery from "./components/Gallery";
+import About from "./components/About";
 import WebLogo from "./components/WebLogo.js";
+import Home from "./components/Home";
+import HomeBackground from "./components/HomeBackground.js";
+import Wedding from "./components/Wedding.js";
+import BabyShoot from "./components/BabyShoot.js";
+import ReactDOM from "react-dom";
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Routes,
+} from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <MainPage />
-      <div className="weblogo">
-        <WebLogo />
+      <div className="Main">
+        <MainPage />
       </div>
-      <Navbar />
-      {/* <Router>
-        <Route path="/gallery" element={<Gallery />} />
-      </Router> */}
-      {/* <BrowserRouter>
-        <Routes>
-          <Route path="/gallery" element={<Gallery />} />
-        </Routes>
-      </BrowserRouter> */}
+      <Router>
+        <div>
+          <Navbar />
+          <Routes>
+            <Route path="/" exact element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/wedding" element={<Wedding />} />
+            <Route path="/babyshoot" element={<BabyShoot />} />
+          </Routes>
+        </div>
+      </Router>
+      <HomeBackground />
     </div>
   );
 }

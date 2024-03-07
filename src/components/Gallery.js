@@ -1,18 +1,18 @@
-// import React from "react";
+import React from "react";
+import logo1 from "./logo1.png";
+import backgroundimage3 from "./backgroundimage3.png";
 
-// function Gallery() {
-//   const images = [
-//     "galleryimage1.jpg",
-//     "galleryimage1.jpg",
-//     "galleryimage1.jpg",
-//   ];
-//   return (
-//     <div>
-//       <h2>Gallery</h2>
-//       {images.map((image, index) => (
-//         <img key={index} src={image} alt={`Photo ${index + 1}`} />
-//       ))}
-//     </div>
-//   );
-// }
-// export default Gallery;
+function Gallery() {
+  return (
+    <div id="scroll-container" className="scroll-container">
+      <div className="bgndimage">
+        {/* <h2>Gallery</h2> */}
+        <img src={backgroundimage3} alt="bgimage" />
+      </div>
+      <img src={backgroundimage3} alt="bgimage" />
+      <img src={backgroundimage3} alt="bgimage" />
+    </div>
+  );
+}
+
+export default Gallery;

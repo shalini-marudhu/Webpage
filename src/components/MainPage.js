@@ -1,9 +1,12 @@
 import "./allstyles.css";
 import WebLogo from "./WebLogo";
+import ContactHeader from "./ContactHeader";
 function MainPage() {
   return (
     <div className="MainPage">
-      <header>TAG ME PHOTOGRAPHY</header>
+      <WebLogo />
+      <h2 className="heading">TAG ME PHOTOGRAPHY</h2>
+      <ContactHeader />
     </div>
   );
 }
