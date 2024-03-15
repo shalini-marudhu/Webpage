@@ -1,9 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { FaFacebook, FaInstagram, FaEnvelope, FaPhone } from "react-icons/fa";
-import ContactHeader from "./ContactHeader";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import NavBar from "./NavBar";
 const Footer = () => {
   return (
     <footer className="footer">
