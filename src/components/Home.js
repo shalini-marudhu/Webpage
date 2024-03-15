@@ -17,7 +17,6 @@ import Mod7 from "./Images/Mod7.jpg";
 import Mod8 from "./Images/Mod8.jpg";
 import Mod9 from "./Images/Mod9.jpg";
 import Mod10 from "./Images/Mod10.jpg";
-
 import Wed1 from "./Images/Wed1.jpg";
 
 import ImageGrid from "./ImageGrid";
