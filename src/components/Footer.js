@@ -17,10 +17,13 @@ const Footer = () => {
 
           <p>Email: tagmepics@gmail.com</p>
 
-          <a href="https://www.gmail.com/tagmepics/"></a>
+          <a
+            href="https://www.gmail.com/tagmepics/"
+            aria-label="Go to mail"
+          ></a>
           <p>Phone: +91 9524655853 </p>
 
-          <a href="tel:+91 9524655853"></a>
+          <a href="tel:+91 9524655853" aria-label="Go to phone"></a>
           <h3>Location</h3>
           <p>Velachery, Chennai</p>
         </div>
