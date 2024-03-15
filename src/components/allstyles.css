@@ -1,48 +1,29 @@
+@font-face {
+  font-family: "Amsterdam Handwriting";
+  src: url("./Fonts/amsterdam_handwriting/Amsterdam.ttf") format("truetype");
+
+  font-family: "ChickenCrispy";
+  src: url("./Fonts/amsterdam_handwriting/Chicken Crispy.otf")
+    format("truetype");
+
+  font-family: "StoryNight";
+  src: url("./Fonts/amsterdam_handwriting/Story Night.ttf") format("truetype");
+  font-family: "Bicycle";
+  src: url("./Fonts/amsterdam_handwriting/BicycleTrack.otf") format("truetype");
+}
+
 @media (max-width: 768px) {
   .heading {
     /* margin-bottom: 10px; */
     font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family: "Amsterdam Handwriting", cursive;
     text-align: center;
     color: rgba(20, 18, 18, 0.716);
+    display: flex;
     text-align: center;
     align-items: center;
-    display: flex;
   }
-  .Main {
-    /* font-size: 20px; */
-
-    /* background-color: #ebfa19a9; */
-  }
-  /* .heading {
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    color: rgba(20, 18, 18, 0.716);
-  } */
-  /* water effect */
-  /* font-size: 6vw;
-    font-weight: bold;
-    position: relative;
-    display: inline-block;
-    color: rgb(17, 24, 21);
-    overflow: hidden; */
-
-  /* .heading::before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, #4c07e0 20%, rgb(242, 72, 5) 80%);
-    transform: scaleY(0);
-    transform-origin: 50% 0;
-    animation: waterEffect 2s infinite alternate;
-  } */
-
+  /**/
   .homebackground {
     /* background-size: 100% 100%;
     background-position: center;
@@ -60,8 +41,9 @@
   .scroll-container {
     flex-direction: column;
     font-weight: lighter;
-    font-family: cursive;
+    font-family: "StoryNight", cursive;
   }
+
   .scroll-container img {
     width: 100%;
     height: auto;
@@ -85,29 +67,25 @@
   overflow-x: auto;
   white-space: nowrap; */
   /* align-items: center; */
-  background-color: #e5ff003f;
+  /* background-color: #e5ff003f; */
 }
-.bgndimage {
-  /* border: 5px solid #f60c0c; */
-}
+
 .MainPage {
-  background-color: #ebfa19e6;
+  background-color: #fcf94d;
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   text-align: center;
   justify-content: space-between;
 }
 .heading {
   font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: rgba(20, 18, 18, 0.716);
+  font-family: "Amsterdam Handwriting", cursive;
+  color: rgba(12, 12, 12, 0.716);
   display: flex;
   align-items: center;
   text-align: center;
-  /* margin-bottom: 10px;
-  margin-right: 40px; */
 }
 @keyframes scrollAnimation {
   0% {
@@ -123,12 +101,12 @@
   /* position: absolute; */
   top: 5px;
   right: 0px;
-  justify-content: center;
+  /* justify-content: flex-end; */
   padding: 10px;
 }
 
 .scroll-container img {
-  border: 8px solid #fef1f1;
+  border: 4px solid #fef1f1;
   width: 80%;
   min-width: 80%;
   height: auto;
@@ -136,12 +114,21 @@
   margin-left: 10%;
   margin-top: 8%;
   box-sizing: border-box;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.social-icon {
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform 0.3s; /* Smooth transition for size change */
+}
+.social-icon:hover {
+  font-size: 39px;
 }
 nav {
   padding: 10px;
   text-align: center;
-  background-color: rgb(150, 110, 10);
+  /* background-color: rgb(150, 110, 10); */
+  /* background-color: rgba(150, 110, 10, 10); */
 }
 ul {
   list-style-type: none;
@@ -224,8 +211,8 @@ nav {
     position: fixed;
     top: -100vh;
     left: 0;
-    height: 100%;
-    width: 100%;
+    height: 70%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -251,7 +238,7 @@ nav {
 }
 
 .about-section {
-  background-color: #f9fc9be0;
+  background-color: #d8d9afe0;
   padding: 50px 0;
   font-family: " Verdana, Geneva, Tahoma, sans-serif";
 }
@@ -280,5 +267,163 @@ nav {
 header h3 {
   font-size: 20px;
   font-weight: lighter;
-  font-family: cursive;
+  font-family: "ChickenCrispy", cursive;
+}
+
+.image-gridd {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.image-item {
+  width: 100%;
+  height: 0; /* Ensure no extra space is added */
+  padding-top: 100%; /* Maintain aspect ratio */
+  position: relative;
+}
+
+.image-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ensure the image covers the entire container */
+}
+
+/**/
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+  gap: 2px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+img.four-grid-cells {
+  grid-row: span 1 / auto;
+  grid-column: span 2 / auto;
+}
+
+img.wide-image {
+  grid-column: span 2 / auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust gap between rows */
+}
+/* .container.p {
+  font-size: 10px;
+} */
+.row {
+  display: flex;
+}
+
+.image-with-content {
+  /* flex: 1; */
+  /* Image and content take up equal space */
+  display: flex;
+  justify-content: flex-end; /* Align image to the right */
+  align-items: center;
+}
+
+.image-with-content img {
+  border-radius: 0rem;
+  border: 3px solid #ffffff; /* Add border around the image */
+  max-width: 60%; /* Ensure image doesn't overflow container */
+}
+
+.content {
+  flex: 1;
+  /* Image and content take up equal space */
+  padding: 0px 10px;
+  /* Adjust padding between content and image */
+  margin-right: auto; /* Move content to the left */
+  font-size: 50px;
+  font-weight: bolder;
+}
+.quote {
+  font-family: "StoryNight", cursive;
+  font-size: 25px;
+}
+.titlee {
+  color: rgb(141, 85, 39);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Titillium Web", sans-serif;
+}
+.imgcontainer p {
+  /*our services */
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: rgb(141, 85, 39);
+}
+
+@media (max-width: 768px) {
+  .imgcontainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .imgcontainer p {
+    /*portfolio */
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(141, 85, 39);
+    font-family: "ChickenCrispy", cursive;
+  }
+  .row {
+    flex-direction: column;
+  }
+
+  .image-with-content,
+  .content {
+    width: 100%; /* Full width on mobile */
+  }
+
+  .content {
+    padding: 20px 0;
+    /* Adjust padding on mobile */
+    font-size: 50px;
+    font-weight: lighter;
+  }
+
+  .quote {
+    font-size: 25px;
+    font-family: "StoryNight", cursive;
+  }
+  .titlee {
+    color: rgb(141, 85, 39);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Titillium Web", sans-serif;
+  }
+}
+.contactdetails {
+  background-color: rgba(219, 172, 110, 0.981);
+  color: #eee;
+}
+
+.imagegrid h1 {
+  /*our works */
+  color: rgb(153, 91, 40);
+  font-size: 24px;
+  font-weight: lighter;
+  margin-top: 3rem;
+  margin-bottom: 0.7rem;
+  font-family: "";
+  font-family: "ChickenCrispy", cursive;
 }

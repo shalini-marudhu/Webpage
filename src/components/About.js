@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./Contact";
 
 function About() {
   return (
@@ -6,7 +7,7 @@ function About() {
       <div className="about-content">
         <h2>About Us</h2>
         <p>
-          Welcome to our photography studio! We are located in{" "}
+          Welcome to our photography studio! We are located in
           <i>VelaCherry , Chennai-42</i>
           <br /> We are passionate about capturing life's beautiful moments
           through the lens of a camera. Our team of talented photographers is
@@ -32,6 +33,8 @@ function About() {
           lifetime.
         </p>
       </div>
+
+      <Contact />
     </div>
   );
 }

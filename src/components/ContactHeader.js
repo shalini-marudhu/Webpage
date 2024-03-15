@@ -7,10 +7,10 @@ function ContactHeader() {
     window.location.href = "https://www.facebook.com/tagmephotography42/";
   };
   const handleEmailClick = () => {
-    window.location.href = "https://www.gmail.com/tagmephotography42/";
+    window.location.href = "https://www.gmail.com/tagmepics/";
   };
   const handlePhoneClick = () => {
-    window.location.href = "tel:+919500512704";
+    window.location.href = "tel:+91 9524655853";
   };
   return (
     <div className="social-icons">

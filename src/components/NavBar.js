@@ -1,37 +1,7 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
-
-// function Navbar() {
-//   return (
-//     <nav>
-// <ul>
-//   <li>
-//     <Link to="/">Home</Link>
-//   </li>
-//   <li>
-//     <Link to="/about">About</Link>
-//   </li>
-//   <li>
-//     <Link to="/gallery">Gallery</Link>
-//   </li>
-//   <li>
-//     <Link to="/wedding">Wedding</Link>
-//   </li>
-//   <li>
-//     <Link to="/babyshoot">BabyShoot</Link>
-//   </li>
-// </ul>
-//     </nav>
-//   );
-// }
-
-// export default Navbar;
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
-import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-
-// import "../Styles/main.css";
+import ContactHeader from "./ContactHeader";
 
 function Navbar() {
   const navRef = useRef();
@@ -40,25 +10,44 @@ function Navbar() {
     navRef.current.classList.toggle("responsive_nav");
   };
 
+  const closeNavbar = () => {
+    navRef.current.classList.remove("responsive_nav");
+  };
+
   return (
     <header>
-      <h3>Have A Look And Book Us Now</h3>
+      <h3>Book Us Now</h3> <ContactHeader />
       <nav ref={navRef}>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={closeNavbar}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" onClick={closeNavbar}>
+              About Us
+            </Link>
           </li>
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/wedding" onClick={closeNavbar}>
+              Wedding
+            </Link>
           </li>
           <li>
-            <Link to="/wedding">Wedding</Link>
+            <Link to="/outdoor" onClick={closeNavbar}>
+              Outdoor
+            </Link>
           </li>
           <li>
-            <Link to="/babyshoot">BabyShoot</Link>
+            <Link to="/babyshoot" onClick={closeNavbar}>
+              BabyShoot
+            </Link>
+          </li>
+          <li>
+            <Link to="/maternity" onClick={closeNavbar}>
+              Maternity
+            </Link>
           </li>
         </ul>
 
