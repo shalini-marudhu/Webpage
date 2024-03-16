@@ -21,7 +21,7 @@ function Navbar() {
         <ul>
           <li>
             <Link to="/" onClick={closeNavbar}>
-              Home
+              Portfolio
             </Link>
           </li>
           <li>
