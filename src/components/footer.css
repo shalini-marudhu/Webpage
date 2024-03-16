@@ -45,11 +45,16 @@
 }
 
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(
+      rgba(222, 222, 222, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
     url("Images/Wed8.jpg");
   background-size: cover; /* Cover the entire header */
-  background-position: center; /* Center the background image */
-  height: 200px; /* Set the default height of the header */
+  background-position: center;
+  /* Center the background image */
+  height: 200px;
+  /* Set the default height of the header */
 
   @media (max-width: 768px) {
     background-size: contain; /* Adjust background size for smaller screens */

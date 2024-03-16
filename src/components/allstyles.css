@@ -354,8 +354,9 @@ img.wide-image {
 
 .image-with-content img {
   border-radius: 0rem;
-  border: 3px solid #ffffff; /* Add border around the image */
+  border: 4px solid #e7e7e7; /* Add border around the image */
   max-width: 60%; /* Ensure image doesn't overflow container */
+  margin: 1rem;
 }
 
 .content {
@@ -438,11 +439,16 @@ img.wide-image {
   background-color: rgba(219, 172, 110, 0.981);
   color: #eee;
 }
+
+/**Image grid home page*/
 .imagegrid {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.imagegrid img {
+  border: 2px solid #e5ff00;
 }
 
 .imagegrid h1,

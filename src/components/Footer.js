@@ -9,6 +9,7 @@ const Footer = () => {
           <h3>About</h3>
           <p>Book us now and make your special moments more memorable.</p>
         </div>
+
         <div className="footer-column">
           <h3>Contact Us</h3>
 
