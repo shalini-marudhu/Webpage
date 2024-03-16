@@ -36,6 +36,7 @@ const ImageGrid = ({ images }) => {
     <div>
       <div className="imagegrid">
         <h1>OUR WORKS</h1>
+        <p>Smiles that Sparkle </p>
       </div>
 
       <div className="gallery">

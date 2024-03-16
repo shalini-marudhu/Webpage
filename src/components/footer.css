@@ -95,3 +95,24 @@
 .contactItem svg {
   margin-right: 10px; /* Add margin to the right of the icon */
 }
+
+/* loading.css */
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh; /* Set height to 100% of the viewport height */
+}
+
+.loading-image {
+  width: 100px; /* Adjust image size as needed */
+  height: auto;
+}
+
+.loading-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Change font family */
+  font-size: 14px; /* Change font size */
+  margin-top: 10px; /* Add some space between image and text */
+  font-weight: lighter;
+}

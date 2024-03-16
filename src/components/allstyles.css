@@ -44,7 +44,9 @@
     font-family: "StoryNight", cursive;
     pointer-events: none;
   }
-
+  .scroll-container h2 {
+    font-family: "StoryNight", cursive;
+  }
   .scroll-container img {
     width: 100%;
     height: auto;
@@ -73,6 +75,8 @@
   /* background-color: #e5ff003f; */
 }
 
+.scroll-container h2 {
+}
 .MainPage {
   background-color: #fcf94d;
   width: 100%;
@@ -379,7 +383,8 @@ img.wide-image {
   font-weight: bolder;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  color: rgb(141, 85, 39);
+  color: rgb(116, 69, 31);
+  text-align: center;
   pointer-events: none;
 }
 
@@ -395,9 +400,10 @@ img.wide-image {
     font-weight: bolder;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color: rgb(141, 85, 39);
+    color: rgb(116, 69, 31);
     font-family: "ChickenCrispy", cursive;
     pointer-events: none;
+    text-align: center;
   }
   .row {
     flex-direction: column;
@@ -432,18 +438,24 @@ img.wide-image {
   background-color: rgba(219, 172, 110, 0.981);
   color: #eee;
 }
+.imagegrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-.imagegrid h1 {
-  /*our works */
-  color: rgb(153, 91, 40);
-  font-size: 24px;
-  font-weight: lighter;
-  margin-top: 3rem;
-  margin-bottom: 0.7rem;
-  font-family: "";
+.imagegrid h1,
+.imagegrid p {
+  color: brown;
   font-family: "ChickenCrispy", cursive;
 }
 
-/* img {
-  pointer-events: none;
-} */
+.imagegrid h1 {
+  /*our works */
+  font-size: 24px;
+  font-weight: lighter;
+  margin-top: 3rem;
+  text-align: center;
+  margin-bottom: 0.7rem; /* Add margin bottom to create space between h1 and p */
+}

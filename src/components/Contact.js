@@ -9,7 +9,7 @@ import {
 function Contact() {
   return (
     <div className="contactUs">
-      <h1>Contact Us</h1>
+      <h1>Contact</h1>
       <div className="contactInfo">
         <div className="contactItem">
           <FaMapMarkerAlt />

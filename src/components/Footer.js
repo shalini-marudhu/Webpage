@@ -6,11 +6,8 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-column">
-          <h3>About Us</h3>
-          <p>
-            Your photography website provides an opportunity to showcase your
-            work and connect with potential clients.
-          </p>
+          <h3>About</h3>
+          <p>Book us now and make your special moments more memorable.</p>
         </div>
         <div className="footer-column">
           <h3>Contact Us</h3>
@@ -55,6 +52,13 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <i className="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/@tagmephotography1643"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-youtube"></i>
             </a>
           </div>
         </div>
