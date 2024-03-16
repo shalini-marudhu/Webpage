@@ -5,6 +5,7 @@ import Mat5 from "./Images/Mat5.jpg";
 import Out1 from "./Images/Out1.jpg";
 // import ImageSlider from "./ImageSlider";
 import Carousel from "./Carousel";
+import MyCarousel from "./Carousel";
 
 // import Wed6 from "./Images/Wed6.jpg";
 // import Wed8 from "./Images/Wed8.jpg";
@@ -139,7 +140,8 @@ function Home() {
         </div>
       </div>
       {/* <ImageSlider /> */}
-      <Carousel />
+      {/* <Carousel /> */}
+      <MyCarousel />
     </div>
   );
 }

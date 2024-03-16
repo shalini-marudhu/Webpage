@@ -41,3 +41,16 @@
 .next {
   right: 0;
 }
+
+.carousel-root {
+  max-width: 100%; /* Ensure the carousel spans the entire width */
+}
+
+.carousel .slide {
+  background-color: #fff; /* Customize slide background color */
+}
+
+.carousel .slide img {
+  max-width: 100%; /* Make images responsive */
+  height: auto;
+}
