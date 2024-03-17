@@ -1,56 +1,19 @@
 .carousel-container {
-  position: relative;
-  width: 100%;
-  max-width: 600px; /* Adjust the maximum width as needed */
-  margin: 0 auto;
+  border: 2px solid #ccc; /* Border style */
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  overflow: hidden; /* Ensure that the border is visible */
 }
 
-.image-container {
-  display: flex;
-  overflow: hidden;
-  width: 100%;
+/* Define the default size of carousel images */
+.carousel img {
+  width: 100%; /* Make images responsive */
 }
 
-.image-container img {
-  width: 100%;
-  display: none;
-  transition: transform 0.5s ease; /* Add a smooth transition effect */
-}
-
-.image-container img.active {
-  display: block;
-}
-
-.prev,
-.next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-  z-index: 2;
-}
-
-.prev {
-  left: 0;
-}
-
-.next {
-  right: 0;
-}
-
-.carousel-root {
-  max-width: 100%; /* Ensure the carousel spans the entire width */
-}
-
-.carousel .slide {
-  background-color: #fff; /* Customize slide background color */
-}
-
-.carousel .slide img {
-  max-width: 100%; /* Make images responsive */
-  height: auto;
+/* Apply different styles for laptop screens */
+@media only screen and (min-width: 1024px) {
+  .carousel img {
+    /* Adjust the size of images for laptop screens */
+    max-width: 600px; /* Set the maximum width */
+    height: auto; /* Maintain aspect ratio */
+  }
 }

@@ -3,8 +3,6 @@ import Wed2 from "./Images/Wed2.jpg";
 import Bab1 from "./Images/Bab1.jpg";
 import Mat5 from "./Images/Mat5.jpg";
 import Out1 from "./Images/Out1.jpg";
-// import ImageSlider from "./ImageSlider";
-// import Carousel from "./Carousel";
 import MyCarousel from "./Carousel";
 
 // import Wed6 from "./Images/Wed6.jpg";
@@ -139,8 +137,10 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* <ImageSlider /> */}
-      {/* <Carousel /> */}
+      <div className="image-slider">
+        <h1>A GLIMPSE OF OUR WORKS</h1>
+        <p>Little Photo magic </p>
+      </div>
       <MyCarousel />
     </div>
   );
