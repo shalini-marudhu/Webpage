@@ -22,7 +22,6 @@ import Mod4 from "./Images/Mod4.jpg";
 import Mod5 from "./Images/Mod5.jpg";
 import Mod7 from "./Images/Mod7.jpg";
 import Mod9 from "./Images/Mod9.jpg";
-import Mat12 from "./Images/Mat12.jpg";
 import Mat1 from "./Images/Mat1.jpg";
 
 function MyCarousel() {
@@ -39,10 +38,8 @@ function MyCarousel() {
     const deltaX = touchEndX - touchStartX.current;
 
     if (deltaX > 50) {
-      // Swipe right
       carouselRef.current.prev();
     } else if (deltaX < -50) {
-      // Swipe left
       carouselRef.current.next();
     }
   };
@@ -54,7 +51,7 @@ function MyCarousel() {
       selectedItem={currentSlide}
       onChange={(index) => setCurrentSlide(index)}
       swipeable
-      emulateTouch // Enable touch emulation for desktop
+      emulateTouch
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
       ref={carouselRef}
@@ -114,17 +111,7 @@ function MyCarousel() {
         <img src={Bab13} alt="Bab13" />
       </div>
       <div>
-        <img src={Mat12} alt="Mat12" />
-      </div>
-      <div>
-        <img src={Mod1} alt="Mod1" />
-      </div>
-
-      <div>
         <img src={Bab14} alt="Bab14" />
-      </div>
-      <div>
-        <img src={Mod1} alt="Mod1" />
       </div>
       <div>
         <img src={Mat1} alt="Mat1" />
