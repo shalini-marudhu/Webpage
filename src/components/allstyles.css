@@ -184,7 +184,7 @@ li:hover {
 header {
   position: sticky;
   top: 0;
-  z-index: 1000; /* Adjust the z-index as needed */
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -193,6 +193,10 @@ header {
   background-color: var(--mainColor);
   color: var(--textColor);
 }
+header.sticky {
+  height: 70px; /* Adjust this value as needed */
+}
+
 nav a {
   margin: 0 1rem;
   color: var(--textColor);
@@ -412,7 +416,9 @@ header h3 {
 
 .image-slider h1 {
   /*our works */
+
   color: rgb(33, 30, 30);
+
   font-size: 24px;
   font-weight: lighter;
   margin-top: 3rem;

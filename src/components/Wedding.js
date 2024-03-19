@@ -31,33 +31,33 @@ function Wedding() {
   return (
     <div id="scroll-container" className="scroll-container">
       <h2>Weddings</h2>
-      <img src={Wed1} alt="Wed1" />
-      <img src={Wed8} alt="Wed8" />
-      <img src={Wed2} alt="Wed2" />
-      <img src={Wed20} alt="Wed20" />
-      <img src={Wed21} alt="Wed21" />
-      <img src={Wed22} alt="Wed22" />
-      <img src={Wed23} alt="Wed23" />
-      <img src={Wed24} alt="Wed24" />
-      <img src={Wed25} alt="Wed25" />
-      <img src={Wed26} alt="Wed26" />
-      <img src={Wed27} alt="Wed27" />
-      <img src={Wed3} alt="Wed3" />
-      <img src={Wed4} alt="Wed4" />
-      <img src={Wed5} alt="Wed5" />
-      <img src={Wed6} alt="Wed6" />
-      <img src={Wed7} alt="Wed7" />
-      <img src={Wed9} alt="Wed9" />
-      <img src={Wed10} alt="Wed10" />
-      <img src={Wed11} alt="Wed11" />
-      <img src={Wed12} alt="Wed12" />
-      <img src={Wed13} alt="Wed13" />
-      <img src={Wed14} alt="Wed14" />
-      <img src={Wed15} alt="Wed15" />
-      <img src={Wed16} alt="Wed16" />
-      <img src={Wed17} alt="Wed17" />
-      <img src={Wed18} alt="Wed18" />
-      <img src={Wed19} alt="Wed19" />
+      <img src={Wed1} alt="Wed1" loading="lazy" />
+      <img src={Wed8} alt="Wed8" loading="lazy" />
+      <img src={Wed2} alt="Wed2" loading="lazy" />
+      <img src={Wed20} alt="Wed20" loading="lazy" />
+      <img src={Wed21} alt="Wed21" loading="lazy" />
+      <img src={Wed22} alt="Wed22" loading="lazy" />
+      <img src={Wed23} alt="Wed23" loading="lazy" />
+      <img src={Wed24} alt="Wed24" loading="lazy" />
+      <img src={Wed25} alt="Wed25" loading="lazy" />
+      <img src={Wed26} alt="Wed26" loading="lazy" />
+      <img src={Wed27} alt="Wed27" loading="lazy" />
+      <img src={Wed3} alt="Wed3" loading="lazy" />
+      <img src={Wed4} alt="Wed4" loading="lazy" />
+      <img src={Wed5} alt="Wed5" loading="lazy" />
+      <img src={Wed6} alt="Wed6" loading="lazy" />
+      <img src={Wed7} alt="Wed7" loading="lazy" />
+      <img src={Wed9} alt="Wed9" loading="lazy" />
+      <img src={Wed10} alt="Wed10" loading="lazy" />
+      <img src={Wed11} alt="Wed11" loading="lazy" />
+      <img src={Wed12} alt="Wed12" loading="lazy" />
+      <img src={Wed13} alt="Wed13" loading="lazy" />
+      <img src={Wed14} alt="Wed14" loading="lazy" />
+      <img src={Wed15} alt="Wed15" loading="lazy" />
+      <img src={Wed16} alt="Wed16" loading="lazy" />
+      <img src={Wed17} alt="Wed17" loading="lazy" />
+      <img src={Wed18} alt="Wed18" loading="lazy" />
+      <img src={Wed19} alt="Wed19" loading="lazy" />
     </div>
   );
 }

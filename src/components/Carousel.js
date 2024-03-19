@@ -14,10 +14,8 @@ import Wed11 from "./Images/Wed11.jpg";
 import Out2 from "./Images/Out2.jpg";
 import Out3 from "./Images/Out3.jpg";
 import Bab14 from "./Images/Bab14.jpg";
-
 import Bab13 from "./Images/Bab13.jpg";
 import Mat5 from "./Images/Mat5.jpg";
-
 import Mod4 from "./Images/Mod4.jpg";
 import Mod5 from "./Images/Mod5.jpg";
 import Mod7 from "./Images/Mod7.jpg";
@@ -43,6 +41,7 @@ function MyCarousel() {
       carouselRef.current.next();
     }
   };
+
   return (
     <Carousel
       showThumbs={false}
@@ -57,64 +56,64 @@ function MyCarousel() {
       ref={carouselRef}
     >
       <div>
-        <img src={Mod1} alt="Mod1" />
+        <img src={Mod1} alt="Mod1" loading="lazy" />
       </div>
       <div>
-        <img src={Out2} alt="Out2" />
+        <img src={Out2} alt="Out2" loading="lazy" />
       </div>
       <div>
-        <img src={Wed1} alt="Wed1" />
+        <img src={Wed1} alt="Wed1" loading="lazy" />
       </div>
       <div>
-        <img src={Out3} alt="Out3" />
+        <img src={Out3} alt="Out3" loading="lazy" />
       </div>
       <div>
-        <img src={Wed20} alt="Wed20" />
+        <img src={Wed20} alt="Wed20" loading="lazy" />
       </div>
       <div>
-        <img src={Mod2} alt="Mod2" />
+        <img src={Mod2} alt="Mod2" loading="lazy" />
       </div>
       <div>
-        <img src={Mod7} alt="Mod7" />
+        <img src={Mod7} alt="Mod7" loading="lazy" />
       </div>
       <div>
-        <img src={Wed12} alt="Wed12" />
+        <img src={Wed12} alt="Wed12" loading="lazy" />
       </div>
       <div>
-        <img src={Mod9} alt="Mod9" />
+        <img src={Mod9} alt="Mod9" loading="lazy" />
       </div>
       <div>
-        <img src={Wed23} alt="Mod1" />
+        <img src={Wed23} alt="Mod1" loading="lazy" />
       </div>
       <div>
-        <img src={Mod3} alt="Mod3" />
+        <img src={Mod3} alt="Mod3" loading="lazy" />
       </div>
       <div>
-        <img src={Mod5} alt="Mod5" />
+        <img src={Mod5} alt="Mod5" loading="lazy" />
       </div>
       <div>
-        <img src={Wed11} alt="Wed11" />
+        <img src={Wed11} alt="Wed11" loading="lazy" />
       </div>
       <div>
-        <img src={Mod2} alt="Mod2" />
+        <img src={Mod2} alt="Mod2" loading="lazy" />
       </div>
       <div>
-        <img src={Wed3} alt="Mod1" />
+        <img src={Wed3} alt="Mod1" loading="lazy" />
       </div>
       <div>
-        <img src={Mod4} alt="Mod4" />
+        <img src={Mod4} alt="Mod4" loading="lazy" />
       </div>
       <div>
-        <img src={Mat5} alt="Mat5" />
+        <img src={Mat5} alt="Mat5" loading="lazy" />
       </div>
       <div>
-        <img src={Bab13} alt="Bab13" />
+        <img src={Bab13} alt="Bab13" loading="lazy" />
       </div>
       <div>
-        <img src={Bab14} alt="Bab14" />
+        <img src={Bab14} alt="Bab14" loading="lazy" />
       </div>
       <div>
-        <img src={Mat1} alt="Mat1" />
+        <img src={Mat1} alt="Mat1" loading="lazy" />
       </div>
     </Carousel>
   );

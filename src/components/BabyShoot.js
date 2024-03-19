@@ -31,33 +31,33 @@ function BabyShoot() {
   return (
     <div id="scroll-container" className="scroll-container">
       <h2>Baby shoot</h2>
-      <img src={Bab1} alt="Bab1" />
-      <img src={Bab8} alt="Bab8" />
-      <img src={Bab2} alt="Bab2" />
-      <img src={Bab3} alt="Bab3" />
-      <img src={Bab4} alt="Bab4" />
-      <img src={Bab5} alt="Bab5" />
-      <img src={Bab6} alt="Bab6" />
-      <img src={Bab7} alt="Bab7" />
-      <img src={Bab9} alt="Bab9" />
-      <img src={Bab10} alt="Bab10" />
-      <img src={Bab11} alt="Bab11" />
-      <img src={Bab12} alt="Bab12" />
-      <img src={Bab13} alt="Bab13" />
-      <img src={Bab14} alt="Bab14" />
-      <img src={Bab15} alt="Bab15" />
-      <img src={Bab16} alt="Bab16" />
-      <img src={Bab17} alt="Bab17" />
-      <img src={Bab18} alt="Bab18" />
-      <img src={Bab19} alt="Bab19" />
-      <img src={Bab20} alt="Bab20" />
-      <img src={Bab21} alt="Bab21" />
-      <img src={Bab22} alt="Bab22" />
-      <img src={Bab23} alt="Bab23" />
-      <img src={Bab24} alt="Bab24" />
-      <img src={Bab25} alt="Bab25" />
-      <img src={Bab26} alt="Bab26" />
-      <img src={Bab27} alt="Bab27" />
+      <img src={Bab1} alt="Bab1" loading="lazy" />
+      <img src={Bab8} alt="Bab8" loading="lazy" />
+      <img src={Bab2} alt="Bab2" loading="lazy" />
+      <img src={Bab3} alt="Bab3" loading="lazy" />
+      <img src={Bab4} alt="Bab4" loading="lazy" />
+      <img src={Bab5} alt="Bab5" loading="lazy" />
+      <img src={Bab6} alt="Bab6" loading="lazy" />
+      <img src={Bab7} alt="Bab7" loading="lazy" />
+      <img src={Bab9} alt="Bab9" loading="lazy" />
+      <img src={Bab10} alt="Bab10" loading="lazy" />
+      <img src={Bab11} alt="Bab11" loading="lazy" />
+      <img src={Bab12} alt="Bab12" loading="lazy" />
+      <img src={Bab13} alt="Bab13" loading="lazy" />
+      <img src={Bab14} alt="Bab14" loading="lazy" />
+      <img src={Bab15} alt="Bab15" loading="lazy" />
+      <img src={Bab16} alt="Bab16" loading="lazy" />
+      <img src={Bab17} alt="Bab17" loading="lazy" />
+      <img src={Bab18} alt="Bab18" loading="lazy" />
+      <img src={Bab19} alt="Bab19" loading="lazy" />
+      <img src={Bab20} alt="Bab20" loading="lazy" />
+      <img src={Bab21} alt="Bab21" loading="lazy" />
+      <img src={Bab22} alt="Bab22" loading="lazy" />
+      <img src={Bab23} alt="Bab23" loading="lazy" />
+      <img src={Bab24} alt="Bab24" loading="lazy" />
+      <img src={Bab25} alt="Bab25" loading="lazy" />
+      <img src={Bab26} alt="Bab26" loading="lazy" />
+      <img src={Bab27} alt="Bab27" loading="lazy" />
     </div>
   );
 }

@@ -28,31 +28,31 @@ function Maternity() {
   return (
     <div id="scroll-container" className="scroll-container">
       <h2>Maternity</h2>
-      <img src={Mat1} alt="Mat1" />
-      <img src={Mat8} alt="Mat8" />
-      <img src={Mat2} alt="Mat2" />
-      <img src={Mat3} alt="Mat3" />
-      <img src={Mat4} alt="Mat4" />
-      <img src={Mat5} alt="Mat5" />
-      <img src={Mat6} alt="Mat6" />
-      <img src={Mat7} alt="Mat7" />
-      <img src={Mat9} alt="Mat9" />
-      <img src={Mat10} alt="Mat10" />
-      <img src={Mat11} alt="Mat11" />
-      <img src={Mat12} alt="Mat12" />
-      <img src={Mat13} alt="Mat13" />
-      <img src={Mat14} alt="Mat14" />
-      <img src={Mat15} alt="Mat15" />
-      <img src={Mat16} alt="Mat16" />
-      <img src={Mat17} alt="Mat17" />
-      <img src={Mat18} alt="Mat18" />
-      <img src={Mat19} alt="Mat19" />
-      <img src={Mat20} alt="Mat20" />
-      <img src={Mat21} alt="Mat21" />
-      <img src={Mat22} alt="Mat22" />
-      <img src={Mat23} alt="Mat23" />
-      <img src={Mat24} alt="Mat24" />
-      <img src={Mat25} alt="Mat25" />
+      <img src={Mat1} alt="Mat1" loading="lazy" />
+      <img src={Mat8} alt="Mat8" loading="lazy" />
+      <img src={Mat2} alt="Mat2" loading="lazy" />
+      <img src={Mat3} alt="Mat3" loading="lazy" />
+      <img src={Mat4} alt="Mat4" loading="lazy" />
+      <img src={Mat5} alt="Mat5" loading="lazy" />
+      <img src={Mat6} alt="Mat6" loading="lazy" />
+      <img src={Mat7} alt="Mat7" loading="lazy" />
+      <img src={Mat9} alt="Mat9" loading="lazy" />
+      <img src={Mat10} alt="Mat10" loading="lazy" />
+      <img src={Mat11} alt="Mat11" loading="lazy" />
+      <img src={Mat12} alt="Mat12" loading="lazy" />
+      <img src={Mat13} alt="Mat13" loading="lazy" />
+      <img src={Mat14} alt="Mat14" loading="lazy" />
+      <img src={Mat15} alt="Mat15" loading="lazy" />
+      <img src={Mat16} alt="Mat16" loading="lazy" />
+      <img src={Mat17} alt="Mat17" loading="lazy" />
+      <img src={Mat18} alt="Mat18" loading="lazy" />
+      <img src={Mat19} alt="Mat19" loading="lazy" />
+      <img src={Mat20} alt="Mat20" loading="lazy" />
+      <img src={Mat21} alt="Mat21" loading="lazy" />
+      <img src={Mat22} alt="Mat22" loading="lazy" />
+      <img src={Mat23} alt="Mat23" loading="lazy" />
+      <img src={Mat24} alt="Mat24" loading="lazy" />
+      <img src={Mat25} alt="Mat25" loading="lazy" />
     </div>
   );
 }
