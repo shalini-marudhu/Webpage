@@ -10,7 +10,8 @@ import Outdoor from "./components/Outdoor.js";
 import Maternity from "./components/Maternity.js";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer.js";
-import Loading from "./components/Loading.js"; // Import the Loading component
+import Loading from "./components/Loading.js";
+import LazyLoad from "react-lazyload";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -35,12 +36,48 @@ function App() {
             <div>
               <Navbar />
               <Routes>
-                <Route path="/" exact element={<Home />} />
+                <Route
+                  path="/"
+                  exact
+                  element={
+                    <LazyLoad height={200} offset={100}>
+                      <Home />
+                    </LazyLoad>
+                  }
+                />
                 <Route path="/about" element={<About />} />
-                <Route path="/maternity" element={<Maternity />} />
-                <Route path="/wedding" element={<Wedding />} />
-                <Route path="/outdoor" element={<Outdoor />} />
-                <Route path="/babyshoot" element={<BabyShoot />} />
+                <Route
+                  path="/maternity"
+                  element={
+                    <LazyLoad height={200} offset={100}>
+                      <Maternity />
+                    </LazyLoad>
+                  }
+                />
+                <Route
+                  path="/wedding"
+                  element={
+                    <LazyLoad height={200} offset={100}>
+                      <Wedding />
+                    </LazyLoad>
+                  }
+                />
+                <Route
+                  path="/outdoor"
+                  element={
+                    <LazyLoad height={200} offset={100}>
+                      <Outdoor />
+                    </LazyLoad>
+                  }
+                />
+                <Route
+                  path="/babyshoot"
+                  element={
+                    <LazyLoad height={200} offset={100}>
+                      <BabyShoot />
+                    </LazyLoad>
+                  }
+                />
               </Routes>
             </div>
           </Router>
