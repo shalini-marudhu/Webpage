@@ -49,7 +49,7 @@
       rgba(222, 222, 222, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("Images/Wed8.jpg");
+    url("Images/Wed8.webp");
   background-size: cover; /* Cover the entire header */
   background-position: center;
   /* Center the background image */

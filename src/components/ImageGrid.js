@@ -1,35 +1,35 @@
 import React from "react";
 
-import Wed6 from "./Images/Wed6.jpg";
-import Wed8 from "./Images/Wed8.jpg";
-import Wed1 from "./Images/Wed1.jpg";
+import Wed6 from "./Images/Wed6.webp";
+import Wed8 from "./Images/Wed8.webp";
+import Wed1 from "./Images/Wed1.webp";
 
-import Out1 from "./Images/Out1.jpg";
-import Out4 from "./Images/Out4.jpg";
-import Out8 from "./Images/Out8.jpg";
+import Out1 from "./Images/Out1.webp";
+import Out4 from "./Images/Out4.webp";
+import Out8 from "./Images/Out8.webp";
 
-import Out12 from "./Images/Out12.jpg";
+import Out12 from "./Images/Out12.webp";
 
-import Bab1 from "./Images/Bab1.jpg";
-import Mat5 from "./Images/Mat5.jpg";
-import Mat8 from "./Images/Mat8.jpg";
+import Bab1 from "./Images/Bab1.webp";
+import Mat5 from "./Images/Mat5.webp";
+import Mat8 from "./Images/Mat8.webp";
 
-import Mod2 from "./Images/Mod2.jpg";
-import Mod3 from "./Images/Mod3.jpg";
-import Mod1 from "./Images/Mod1.jpg";
-import Mod4 from "./Images/Mod4.jpg";
-import Mod5 from "./Images/Mod5.jpg";
-import Mod6 from "./Images/Mod6.jpg";
-import Mod7 from "./Images/Mod7.jpg";
-import Mod8 from "./Images/Mod8.jpg";
-import Mod9 from "./Images/Mod9.jpg";
-import Mod10 from "./Images/Mod10.jpg";
-import Mat24 from "./Images/Mat24.jpg";
-import Mat10 from "./Images/Mat10.jpg";
-import Mat9 from "./Images/Mat9.jpg";
+import Mod2 from "./Images/Mod2.webp";
+import Mod3 from "./Images/Mod3.webp";
+import Mod1 from "./Images/Mod1.webp";
+import Mod4 from "./Images/Mod4.webp";
+import Mod5 from "./Images/Mod5.webp";
+import Mod6 from "./Images/Mod6.webp";
+import Mod7 from "./Images/Mod7.webp";
+import Mod8 from "./Images/Mod8.webp";
+import Mod9 from "./Images/Mod9.webp";
+import Mod10 from "./Images/Mod10.webp";
+import Mat24 from "./Images/Mat24.webp";
+import Mat10 from "./Images/Mat10.webp";
+import Mat9 from "./Images/Mat9.webp";
 
-import Bab9 from "./Images/Bab9.jpg";
-import Bab20 from "./Images/Bab20.jpg";
+import Bab9 from "./Images/Bab9.webp";
+import Bab20 from "./Images/Bab20.webp";
 
 const ImageGrid = ({ images }) => {
   return (

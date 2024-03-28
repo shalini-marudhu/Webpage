@@ -1,8 +1,8 @@
 import React from "react";
-import Wed2 from "./Images/Wed2.jpg";
-import Bab1 from "./Images/Bab1.jpg";
-import Mat5 from "./Images/Mat5.jpg";
-import Out1 from "./Images/Out1.jpg";
+import Wed2 from "./Images/Wed2.webp";
+import Bab1 from "./Images/Bab1.webp";
+import Mat5 from "./Images/Mat5.webp";
+import Out1 from "./Images/Out1.webp";
 import MyCarousel from "./Carousel";
 
 function Home() {

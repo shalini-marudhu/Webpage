@@ -1,16 +1,16 @@
 import React from "react";
-import Out1 from "./Images/Out1.jpg";
-import Out2 from "./Images/Out2.jpg";
-import Out3 from "./Images/Out3.jpg";
-import Out4 from "./Images/Out4.jpg";
-import Out5 from "./Images/Out5.jpg";
-import Out6 from "./Images/Out6.jpg";
-import Out7 from "./Images/Out7.jpg";
-import Out8 from "./Images/Out8.jpg";
-import Out9 from "./Images/Out9.jpg";
-import Out10 from "./Images/Out10.jpg";
-import Out11 from "./Images/Out11.jpg";
-import Out12 from "./Images/Out12.jpg";
+import Out1 from "./Images/Out1.webp";
+import Out2 from "./Images/Out2.webp";
+import Out3 from "./Images/Out3.webp";
+import Out4 from "./Images/Out4.webp";
+import Out5 from "./Images/Out5.webp";
+import Out6 from "./Images/Out6.webp";
+import Out7 from "./Images/Out7.webp";
+import Out8 from "./Images/Out8.webp";
+import Out9 from "./Images/Out9.webp";
+import Out10 from "./Images/Out10.webp";
+import Out11 from "./Images/Out11.webp";
+import Out12 from "./Images/Out12.webp";
 
 function Outdoor() {
   return (

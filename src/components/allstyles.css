@@ -171,7 +171,7 @@ li:hover {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
 }
 
 :root {
@@ -342,7 +342,7 @@ header h3 {
   color: rgb(141, 85, 39);
   font-size: 20px;
   font-weight: bold;
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
 }
 .imgcontainer p {
   /*our services */
@@ -400,7 +400,7 @@ header h3 {
     color: rgb(141, 85, 39);
     font-size: 20px;
     font-weight: bold;
-    font-family: "Titillium Web", sans-serif;
+    /* font-family: "Titillium Web", sans-serif; */
   }
 }
 .contactdetails {
